@@ -149,6 +149,7 @@ Public Class MainForm
         Try
             Await Bot.StartAsync()
         Catch ex As DiscordHttpException
+            Bot.StopTimer()
             MessageBox.Show("Invalid Bot Token", ex.Message, MessageBoxButtons.OK, MessageBoxIcon.Error)
             lblStatus.Text = "Disconnected"
             lblStatus.ForeColor = Drawing.Color.Orange

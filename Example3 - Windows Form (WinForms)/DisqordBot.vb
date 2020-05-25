@@ -87,6 +87,7 @@ Public Class DisqordBot
     '''     Executed when the bot has successfully connected and downloaded all guild data
     ''' </summary>
     Private Function OnReady(e As ReadyEventArgs) As Task
+        UI.InvokeFunc(Of Integer)(Function() UI.lstConsole.Items.Add($"Ready after {Watch.Elapsed:mm\m\:ss\.fff\s}"))
         SaveToken()
 
         'Switch over from the Console tab to the Discord tab
