@@ -1,4 +1,4 @@
-# Diqord (Visual Basic) Examples
+# Disqord (Visual Basic) Examples
 [![MyGet](https://img.shields.io/myget/quahu/vpre/Disqord.svg?style=flat-square&label=myget)](https://www.myget.org/feed/quahu/package/nuget/Disqord)
 [![The Lab](https://img.shields.io/discord/416256456505950215.svg?style=flat-square&label=discord)](https://discord.gg/eUMSXGZ)  
 Visual Basic Examples for creating a Discord Bot using [Disqord](https://github.com/Quahu/Disqord)
